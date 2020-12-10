@@ -1,0 +1,125 @@
+image: docker:latest
+
+services:
+  - docker:dind
+
+stages:
+  - lint&test
+  - build
+  - deploy
+
+variables:
+  AWS_ACCESS_KEY_ID: $AWS_ACCESS_KEY_ID
+  AWS_SECRET_ACCESS_KEY: $AWS_SECRET_ACCESS_KEY
+  AWS_REGION: $AWS_REGION
+  S3_BUCKET_STAGING: $S3_BUCKET_STAGING
+  CDN_DISTRIBUTION_ID_STAGING: $CDN_DISTRIBUTION_ID_STAGING
+  API_STAGING: $API_STAGING
+  APP_URL_STAGING: $APP_URL_STAGING
+  REACT_APP_GOOGLE_CLIENT_ID: $REACT_APP_GOOGLE_CLIENT_ID
+  REACT_APP_RECAPTCHA_SITE_KEY: $REACT_APP_RECAPTCHA_SITE_KEY
+  REACT_APP_GOOGLE_API_KEY: $REACT_APP_GOOGLE_API_KEY	
+  STAGING_PAYPAL_API_KEY: $STAGING_PAYPAL_API_KEY
+  PRODUCTION_PAYPAL_API_KEY: $PRODUCTION_PAYPAL_API_KEY
+  S3_BUCKET_PRODUCTION: $S3_BUCKET_PRODUCTION
+  CDN_DISTRIBUTION_ID_PRODUCTION: $CDN_DISTRIBUTION_ID_PRODUCTION
+  API_PRODUCTION: $API_PRODUCTION
+  APP_URL_PRODUCTION: $APP_URL_PRODUCTION
+
+
+cache:
+  key: $CI_COMMIT_REF_SLUG
+  paths:
+    - .npm
+    - node_modules/
+
+####################
+##   TEMPLATES    ##
+####################
+
+.registry_auth: &registry_auth
+  image: alpine:3.11.6
+  before_script:
+    - apk add --no-cache curl jq python py-pip docker
+    - pip install awscli
+
+####################
+##   LINT STAGE   ##
+####################
+
+Eslint:
+  stage: lint&test
+  image: node:11
+  except:
+    - master
+    - develop
+  script:
+    - yarn install
+    - yarn lint
+
+######################
+##   BUILD STAGE    ##
+######################
+
+Staging | Build:
+  stage: build
+  image: node:11
+  allow_failure: true
+  variables:
+    REACT_APP_TESTMEE_API: $API_STAGING
+    REACT_APP_URL: $APP_URL_STAGING
+    REACT_APP_GOOGLE_CLIENT_ID: $REACT_APP_GOOGLE_CLIENT_ID
+    REACT_APP_RECAPTCHA_SITE_KEY: $REACT_APP_RECAPTCHA_SITE_KEY
+    REACT_APP_GOOGLE_API_KEY: $REACT_APP_GOOGLE_API_KEY
+    REACT_APP_PAYPAL_API_KEY: $STAGING_PAYPAL_API_KEY
+  script:
+    - yarn install
+    - yarn build
+  artifacts:
+    paths:
+      - build/
+    expire_in: 1 day
+
+Production | Build:
+  when: manual
+  stage: build
+  only:
+    - master
+  image: node:11
+  variables:
+    REACT_APP_TESTMEE_API: $API_PRODUCTION
+    REACT_APP_URL: $APP_URL_PRODUCTION
+    REACT_APP_PAYPAL_API_KEY: $PRODUCTION_PAYPAL_API_KEY
+  script:
+    - yarn install
+    - yarn build
+  artifacts:
+    paths:
+      - build/
+    expire_in: 1 day    
+
+######################
+##   DEPLOY STAGE   ##
+######################
+
+Staging | FrontEnd:
+  stage: deploy
+  when: manual
+  only:
+    - master
+  <<: *registry_auth
+  script:
+    - aws s3 cp build/ s3://$S3_BUCKET_STAGING/ --recursive --include "*"
+    - aws s3 sync build/ s3://$S3_BUCKET_STAGING/ --delete --include "*"
+    - aws cloudfront create-invalidation --distribution-id $CDN_DISTRIBUTION_ID_STAGING --paths "/*"
+
+Production | FrontEnd:
+  stage: deploy
+  when: manual
+  only:
+    - master
+  <<: *registry_auth
+  script:
+    - aws s3 cp build/ s3://$S3_BUCKET_PRODUCTION/ --recursive --include "*"
+    - aws s3 sync build/ s3://$S3_BUCKET_PRODUCTION/ --delete --include "*"
+    - aws cloudfront create-invalidation --distribution-id $CDN_DISTRIBUTION_ID_PRODUCTION --paths "/*"

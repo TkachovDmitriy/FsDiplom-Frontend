@@ -1,0 +1,2235 @@
+[
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Open details",
+        "id": "book.car.card.openDetails"
+      },
+      {
+        "defaultMessage": "Book now",
+        "id": "book.car.card.bookNow"
+      },
+      {
+        "defaultMessage": "Price",
+        "id": "book.car.card.price"
+      },
+      {
+        "defaultMessage": "Engine",
+        "id": "book.car.card.engine"
+      },
+      {
+        "defaultMessage": "Transmission",
+        "id": "book.car.card.transmission"
+      },
+      {
+        "defaultMessage": "Color",
+        "id": "book.car.card.color"
+      },
+      {
+        "defaultMessage": "Fuel type",
+        "id": "book.car.card.fuelType"
+      },
+      {
+        "defaultMessage": "(incl. VAT)",
+        "id": "book.car.card.vat"
+      }
+    ],
+    "path": "src/components/cards/BookCarCard/BookCarCard.messages.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Edit",
+        "id": "components.cards.dealer-car-card.edit"
+      },
+      {
+        "defaultMessage": "Delete",
+        "id": "components.cards.dealer-car-card.delete"
+      },
+      {
+        "defaultMessage": "Promote",
+        "id": "components.cards.dealer-car-card.promote"
+      }
+    ],
+    "path": "src/components/cards/DealerCarCard/DealerCarCard.component.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Price",
+        "id": "components.cards.PromotionTariffCard.price"
+      },
+      {
+        "defaultMessage": "Days",
+        "id": "components.cards.PromotionTariffCard.days"
+      },
+      {
+        "defaultMessage": "Expire date:",
+        "id": "components.cards.PromotionTariffCard.expireDate"
+      }
+    ],
+    "path": "src/components/cards/PromotionTariffCard/PromotionTariffCard.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Test drive date",
+        "id": "pages.profile.card.testDriveData"
+      },
+      {
+        "defaultMessage": "Cancel",
+        "id": "pages.profile.card.cancel"
+      },
+      {
+        "defaultMessage": "Upcoming",
+        "id": "pages.profile.card.upcoming"
+      },
+      {
+        "defaultMessage": "Passed",
+        "id": "pages.profile.card.passed"
+      },
+      {
+        "defaultMessage": "Cancelled",
+        "id": "pages.profile.card.cancelled"
+      },
+      {
+        "defaultMessage": "Price",
+        "id": "pages.profile.card.price"
+      },
+      {
+        "defaultMessage": "Free",
+        "id": "pages.profile.card.free"
+      },
+      {
+        "defaultMessage": "Car",
+        "id": "pages.profile.card.car"
+      },
+      {
+        "defaultMessage": "Dealer",
+        "id": "pages.profile.card.dealer"
+      },
+      {
+        "defaultMessage": "Client",
+        "id": "pages.profile.card.client"
+      },
+      {
+        "defaultMessage": "Get a coupon",
+        "id": "pages.profile.getACoupon"
+      },
+      {
+        "defaultMessage": "Confirm",
+        "id": "pages.profile.card.confirm"
+      },
+      {
+        "defaultMessage": "Please press 'confirm' button, once a test drive is over",
+        "id": "pages.profile.tabs.passedCar"
+      }
+    ],
+    "path": "src/components/cards/TestDriveCard/TestDriveCard.messages.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Confirmation in progress",
+        "id": "page.confirmation.title"
+      },
+      {
+        "defaultMessage": "Please waiting ...",
+        "id": "page.confirmation.subtitle"
+      },
+      {
+        "defaultMessage": "Email",
+        "id": "page.confirmation.toastr.title"
+      },
+      {
+        "defaultMessage": "Your have confirmed your email address.",
+        "id": "page.confirmation.toastr.message"
+      }
+    ],
+    "path": "src/components/confirmation/confirmation.messages.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Delete your account",
+        "id": "pages.profile.deleteYourAccount"
+      },
+      {
+        "defaultMessage": "When you delete your account, you lose access to TestMee account, and we permanently delete your personal data.",
+        "id": "pages.profile.deleteAccountRules"
+      },
+      {
+        "defaultMessage": "This page is protected by reCAPTCHA and the Google <pp>Privacy Policy</pp> and <tos>Terms of Service</tos> apply.",
+        "id": "pages.profile.deleteAccountRulesProtected"
+      },
+      {
+        "defaultMessage": "Delete my account",
+        "id": "pages.profile.deleteAccButton"
+      }
+    ],
+    "path": "src/components/deleteAcc/DeleteAccount.messages.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Write a review",
+        "id": "components.forms.CarForm.placeholder.review"
+      },
+      {
+        "defaultMessage": "Send",
+        "id": "components.forms.CarForm.send"
+      },
+      {
+        "defaultMessage": "Tap a star to rate:",
+        "id": "components.forms.CarForm.stars"
+      },
+      {
+        "defaultMessage": "Review",
+        "id": "components.forms.CarForm.review"
+      }
+    ],
+    "path": "src/components/dialogs/Modals.messages.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Choose the date and time of your test drive",
+        "id": "components.dialogs.OrderModal.info"
+      }
+    ],
+    "path": "src/components/dialogs/OrderModal.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Success",
+        "id": "pages.dashboard.promoted-car.toastr.title"
+      },
+      {
+        "defaultMessage": "Car promotion has been paid",
+        "id": "pages.dashboard.promoted-car.toastr.message"
+      },
+      {
+        "defaultMessage": "Promotion",
+        "id": "pages.dashboard.promoted-car.promotion"
+      },
+      {
+        "defaultMessage": "Choose a tariff plan",
+        "id": "pages.dashboard.promoted-car.tariff"
+      },
+      {
+        "defaultMessage": "Payment",
+        "id": "pages.dashboard.promoted-car.payment"
+      },
+      {
+        "defaultMessage": "Back",
+        "id": "pages.dashboard.promoted-car.back"
+      },
+      {
+        "defaultMessage": "Next",
+        "id": "pages.dashboard.promoted-car.next"
+      }
+    ],
+    "path": "src/components/dialogs/PromotionModal.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Rules for test drive",
+        "id": "pages.dealer.rulesForTestDrive"
+      },
+      {
+        "defaultMessage": "See all",
+        "id": "pages.dealer.seeAll"
+      },
+      {
+        "defaultMessage": "Show less",
+        "id": "pages.dealer.showLess"
+      }
+    ],
+    "path": "src/components/DriveRules/DriveRules.messages.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Click to select a file",
+        "id": "components.fields.DropzoneField.placeholder"
+      }
+    ],
+    "path": "src/components/fields/DropzoneField.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Password must be between 8 and 50 characters.",
+        "id": "field.password.hint"
+      }
+    ],
+    "path": "src/components/fields/PasswordField.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Accept <term>Terms of service</term>, <privacy>Privacy policy & Right of withdrawal</privacy>",
+        "id": "pages.sign-up.dealer.termServices"
+      }
+    ],
+    "path": "src/components/fields/PrivacyField.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Save changes",
+        "id": "components.forms.AccountDetailsForm.button.saveChanges"
+      },
+      {
+        "defaultMessage": "Success",
+        "id": "components.forms.AccountDetailsForm.toastr.title"
+      },
+      {
+        "defaultMessage": "Updated!",
+        "id": "components.forms.AccountDetailsForm.toastr.message"
+      }
+    ],
+    "path": "src/components/forms/AccountDetails/AccountDetails.messages.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "General specification",
+        "id": "components.forms.CarForm.title.specification"
+      },
+      {
+        "defaultMessage": "Upload photos",
+        "id": "components.forms.CarForm.title.upload-photos"
+      },
+      {
+        "defaultMessage": "Price & Location",
+        "id": "components.forms.CarForm.title.price-location"
+      },
+      {
+        "defaultMessage": "Additional information",
+        "id": "components.forms.CarForm.title.information"
+      },
+      {
+        "defaultMessage": "Brand",
+        "id": "components.forms.CarForm.label.brand"
+      },
+      {
+        "defaultMessage": "Model",
+        "id": "components.forms.CarForm.label.model"
+      },
+      {
+        "defaultMessage": "Generation",
+        "id": "components.forms.CarForm.label.Generation"
+      },
+      {
+        "defaultMessage": "Engine",
+        "id": "components.forms.CarForm.label.engine"
+      },
+      {
+        "defaultMessage": "Power",
+        "id": "components.forms.CarForm.label.power"
+      },
+      {
+        "defaultMessage": "Fueltype",
+        "id": "components.forms.CarForm.label.fueltype"
+      },
+      {
+        "defaultMessage": "Color",
+        "id": "components.forms.CarForm.label.color"
+      },
+      {
+        "defaultMessage": "Transmission",
+        "id": "components.forms.CarForm.label.transmission"
+      },
+      {
+        "defaultMessage": "Say more about the car",
+        "id": "components.forms.CarForm.label.about-car"
+      },
+      {
+        "defaultMessage": "Photos (add from 3 to 15 photos)",
+        "id": "components.forms.CarForm.label.photos"
+      },
+      {
+        "defaultMessage": "Vehicle price",
+        "id": "components.forms.CarForm.label.price"
+      },
+      {
+        "defaultMessage": "Test drive price",
+        "id": "components.forms.CarForm.label.test-price"
+      },
+      {
+        "defaultMessage": "Location",
+        "id": "components.forms.CarForm.label.location"
+      },
+      {
+        "defaultMessage": "Special equipment",
+        "id": "components.forms.CarForm.label.special-equipment"
+      },
+      {
+        "defaultMessage": "Further features",
+        "id": "components.forms.CarForm.label.further-features"
+      },
+      {
+        "defaultMessage": "Here you can specify the price of the car, color, registration date, body type, transmission, etc.",
+        "id": "components.forms.CarForm.hint.about-car"
+      },
+      {
+        "defaultMessage": "You can add only these formats of photos: .jpg, .png",
+        "id": "components.forms.CarForm.hint.photos"
+      },
+      {
+        "defaultMessage": "Write about special equipment of the car",
+        "id": "components.forms.CarForm.hint.special-equipment"
+      },
+      {
+        "defaultMessage": "Write about further features of the car",
+        "id": "components.forms.CarForm.hint.further-features"
+      },
+      {
+        "defaultMessage": "Free description",
+        "id": "components.forms.CarForm.placeholder.about-car"
+      },
+      {
+        "defaultMessage": "Free",
+        "id": "components.forms.CarForm.placeholder.price"
+      },
+      {
+        "defaultMessage": "Add a car",
+        "id": "components.forms.CarForm.button.submit"
+      },
+      {
+        "defaultMessage": "Save",
+        "id": "components.forms.CarForm.button.submit-edit"
+      },
+      {
+        "defaultMessage": "Success",
+        "id": "components.forms.CarForm.toastr.title"
+      },
+      {
+        "defaultMessage": "Сar was created",
+        "id": "components.forms.CarForm.toastr.message"
+      }
+    ],
+    "path": "src/components/forms/CarForm/CarForm.messages.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Save changes",
+        "id": "components.forms.ChangePassword.button.saveChanges"
+      }
+    ],
+    "path": "src/components/forms/ChangePassword/ChangePasswordForm.messages.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Password",
+        "id": "components.forms.PasswordFragment.label.password"
+      },
+      {
+        "defaultMessage": "Confirm password",
+        "id": "components.forms.PasswordFragment.label.password_confirmation"
+      },
+      {
+        "defaultMessage": "New password",
+        "id": "components.forms.PasswordFragment.label.password.new"
+      },
+      {
+        "defaultMessage": "Confirm new password",
+        "id": "components.forms.PasswordFragment.label.password_confirmation.new"
+      }
+    ],
+    "path": "src/components/forms/PasswordFragment/PasswordFragment.messages.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Please check the box below to proceed.",
+        "id": "field.recaptcha.hint"
+      }
+    ],
+    "path": "src/components/forms/SignInDealerForm/SignInDealerForm.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Email",
+        "id": "components.forms.SignInForm.label.email"
+      },
+      {
+        "defaultMessage": "Forgot password?",
+        "id": "components.forms.SignInForm.link.forgot-password"
+      },
+      {
+        "defaultMessage": "Sign in",
+        "id": "components.forms.SignInForm.button.sign-in"
+      }
+    ],
+    "path": "src/components/forms/SignInDealerForm/SignInDealerForm.messages.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Please check the box below to proceed.",
+        "id": "field.recaptcha.hint"
+      }
+    ],
+    "path": "src/components/forms/SignInForm/SignInForm.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Email",
+        "id": "components.forms.SignInForm.label.email"
+      },
+      {
+        "defaultMessage": "Forgot password?",
+        "id": "components.forms.SignInForm.link.forgot-password"
+      },
+      {
+        "defaultMessage": "Sign in",
+        "id": "components.forms.SignInForm.button.sign-in"
+      }
+    ],
+    "path": "src/components/forms/SignInForm/SignInForm.messages.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Full name",
+        "id": "components.forms.SignUpForm.label.name"
+      },
+      {
+        "defaultMessage": "Email",
+        "id": "components.forms.SignUpForm.label.email"
+      },
+      {
+        "defaultMessage": "Phone number",
+        "id": "components.forms.SignUpForm.label.phone"
+      },
+      {
+        "defaultMessage": "Rules",
+        "id": "components.forms.SignUpForm.label.rules"
+      },
+      {
+        "defaultMessage": "Opening hours",
+        "id": "components.forms.SignUpForm.label.opening-hours"
+      },
+      {
+        "defaultMessage": "Town",
+        "id": "components.forms.SignUpForm.label.town"
+      },
+      {
+        "defaultMessage": "Address",
+        "id": "components.forms.SignUpForm.label.address"
+      },
+      {
+        "defaultMessage": "Date",
+        "id": "components.forms.SignUpForm.label.date"
+      },
+      {
+        "defaultMessage": "Time",
+        "id": "components.forms.SignUpForm.label.time"
+      },
+      {
+        "defaultMessage": "Sign up",
+        "id": "components.forms.SignUpForm.button.sign-up"
+      }
+    ],
+    "path": "src/components/forms/SignUpDealerForm/SignUpDealerForm.messages.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Full name",
+        "id": "components.forms.SignUpForm.label.name"
+      },
+      {
+        "defaultMessage": "Email",
+        "id": "components.forms.SignUpForm.label.email"
+      },
+      {
+        "defaultMessage": "Sign up",
+        "id": "components.forms.SignUpForm.button.sign-up"
+      }
+    ],
+    "path": "src/components/forms/SignUpForm/SignUpForm.messages.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Oops! There’s an error",
+        "id": "pages.error.titile"
+      },
+      {
+        "defaultMessage": "Go to homepage",
+        "id": "pages.error.button"
+      }
+    ],
+    "path": "src/components/layouts/Error.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Log out",
+        "id": "components.layouts.Header.logout"
+      },
+      {
+        "defaultMessage": "Login as dealer",
+        "id": "components.layouts.Header.login-as-dealer"
+      },
+      {
+        "defaultMessage": "Login as user",
+        "id": "components.layouts.Header.login-as-user"
+      }
+    ],
+    "path": "src/components/layouts/Header/Header.messages.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "No data",
+        "id": "components.shared.NoData.noData"
+      }
+    ],
+    "path": "src/components/shared/NoData.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Confirm deletion",
+        "id": "dialog.confirmation.title.deletionAccount"
+      },
+      {
+        "defaultMessage": "Are you sure that you want to permanently delete Account?",
+        "id": "dialog.confirmation.message.deletionAccount"
+      },
+      {
+        "defaultMessage": "Confirm cancellation",
+        "id": "dialog.confirmation.title.bookingCancellation"
+      },
+      {
+        "defaultMessage": "Are you sure you want to cancel the booking of the car?",
+        "id": "dialog.confirmation.message.bookingCancellation"
+      },
+      {
+        "defaultMessage": "Confirm deletion",
+        "id": "dialog.confirmation.title.deletionCar"
+      },
+      {
+        "defaultMessage": "Are you sure that you want to delete this car?",
+        "id": "dialog.confirmation.message.deletionCar"
+      },
+      {
+        "defaultMessage": "Cancel",
+        "id": "dialog.confirmation.button.cancel"
+      },
+      {
+        "defaultMessage": "Confirm",
+        "id": "dialog.confirmation.button.confirm"
+      }
+    ],
+    "path": "src/i18n/messages/confirmation.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Sunday",
+        "id": "days-of-week.sunday"
+      },
+      {
+        "defaultMessage": "Monday",
+        "id": "days-of-week.monday"
+      },
+      {
+        "defaultMessage": "Tuesday",
+        "id": "days-of-week.tuesday"
+      },
+      {
+        "defaultMessage": "Wednesday",
+        "id": "days-of-week.wednesday"
+      },
+      {
+        "defaultMessage": "Thursday",
+        "id": "days-of-week.thursday"
+      },
+      {
+        "defaultMessage": "Friday",
+        "id": "days-of-week.friday"
+      },
+      {
+        "defaultMessage": "Saturday",
+        "id": "days-of-week.saturday"
+      }
+    ],
+    "path": "src/i18n/messages/daysOfWeek.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Phone",
+        "id": "field.phone"
+      },
+      {
+        "defaultMessage": "Email",
+        "id": "field.email"
+      },
+      {
+        "defaultMessage": "Location",
+        "id": "field.location"
+      },
+      {
+        "defaultMessage": "Date",
+        "id": "field.date"
+      },
+      {
+        "defaultMessage": "Time",
+        "id": "field.time"
+      },
+      {
+        "defaultMessage": "Brand",
+        "id": "field.brand"
+      },
+      {
+        "defaultMessage": "Model",
+        "id": "field.model"
+      },
+      {
+        "defaultMessage": "Full name",
+        "id": "field.full-name"
+      },
+      {
+        "defaultMessage": "Password",
+        "id": "field.password"
+      },
+      {
+        "defaultMessage": "Confirm password",
+        "id": "field.confirm-password"
+      },
+      {
+        "defaultMessage": "Name",
+        "id": "field.name"
+      },
+      {
+        "defaultMessage": "Company name",
+        "id": "field.company-name"
+      },
+      {
+        "defaultMessage": "From",
+        "id": "field.from"
+      },
+      {
+        "defaultMessage": "To",
+        "id": "field.to"
+      },
+      {
+        "defaultMessage": "Book the test drive",
+        "id": "bookDrive"
+      },
+      {
+        "defaultMessage": "I would like to start the test drive at...",
+        "id": "startDrive"
+      },
+      {
+        "defaultMessage": "Test drive price:",
+        "id": "price"
+      },
+      {
+        "defaultMessage": "Address",
+        "id": "address"
+      },
+      {
+        "defaultMessage": "Location / zip-code",
+        "id": "location"
+      }
+    ],
+    "path": "src/i18n/messages/fields.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Homepage",
+        "id": "link.homePage"
+      },
+      {
+        "defaultMessage": "Profile",
+        "id": "link.profile"
+      },
+      {
+        "defaultMessage": "All cars",
+        "id": "link.allCars"
+      },
+      {
+        "defaultMessage": "Dashboard",
+        "id": "link.dashboard"
+      },
+      {
+        "defaultMessage": "Offer",
+        "id": "link.offer"
+      },
+      {
+        "defaultMessage": "Payment",
+        "id": "link.payment"
+      },
+      {
+        "defaultMessage": "About us",
+        "id": "link.aboutUs"
+      },
+      {
+        "defaultMessage": "Imprint",
+        "id": "link.imprint"
+      },
+      {
+        "defaultMessage": "Privacy policy",
+        "id": "link.privacyPolicy"
+      },
+      {
+        "defaultMessage": "Terms of service",
+        "id": "link.termsOfService"
+      },
+      {
+        "defaultMessage": "FAQ",
+        "id": "link.faq"
+      },
+      {
+        "defaultMessage": "Contact info",
+        "id": "link.contactInfo"
+      }
+    ],
+    "path": "src/i18n/messages/links.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Forgot password",
+        "id": "seo.pages.title.forgot-password"
+      },
+      {
+        "defaultMessage": "All cars",
+        "id": "seo.pages.title.all-cars"
+      },
+      {
+        "defaultMessage": "Reset password",
+        "id": "seo.pages.title.reset-password"
+      },
+      {
+        "defaultMessage": "Login",
+        "id": "seo.pages.title.sign-in"
+      },
+      {
+        "defaultMessage": "Sign up",
+        "id": "seo.pages.title.sign-up"
+      },
+      {
+        "defaultMessage": "Login as dealer",
+        "id": "seo.pages.title.sign-in.dealer"
+      },
+      {
+        "defaultMessage": "Sign up as dealer",
+        "id": "seo.pages.title.sign-up.dealer"
+      },
+      {
+        "defaultMessage": "Confirmation",
+        "id": "seo.pages.title.confirmation"
+      },
+      {
+        "defaultMessage": "Verify",
+        "id": "seo.pages.title.verify"
+      },
+      {
+        "defaultMessage": "Dashboard",
+        "id": "seo.pages.title.dashboard"
+      },
+      {
+        "defaultMessage": "Dashboard | Edit car",
+        "id": "seo.pages.title.dashboard.edit-car"
+      },
+      {
+        "defaultMessage": "About us",
+        "id": "seo.pages.title.about-us"
+      },
+      {
+        "defaultMessage": "Imprint",
+        "id": "seo.pages.title.imprint"
+      },
+      {
+        "defaultMessage": "Privacy Policy",
+        "id": "seo.pages.title.privacy-policy"
+      },
+      {
+        "defaultMessage": "Terms of service",
+        "id": "seo.pages.title.terms-of-service"
+      },
+      {
+        "defaultMessage": "FAQ",
+        "id": "seo.pages.title.faq"
+      },
+      {
+        "defaultMessage": "Contact info",
+        "id": "seo.pages.title.contact-info"
+      },
+      {
+        "defaultMessage": "404 | Not found",
+        "id": "seo.pages.title.404"
+      },
+      {
+        "defaultMessage": "Congratulation",
+        "id": "seo.pages.title.congratulation"
+      },
+      {
+        "defaultMessage": "Profile",
+        "id": "seo.pages.title.profile"
+      },
+      {
+        "defaultMessage": "dealer page",
+        "id": "seo.pages.title.dealer"
+      },
+      {
+        "defaultMessage": "Payment",
+        "id": "seo.pages.title.payment"
+      }
+    ],
+    "path": "src/i18n/messages/pages.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "(incl. VAT)",
+        "id": "shared.priceBadge"
+      },
+      {
+        "defaultMessage": "Show gallery",
+        "id": "shared.showGallery"
+      },
+      {
+        "defaultMessage": "Gallery",
+        "id": "shared.gallery"
+      }
+    ],
+    "path": "src/i18n/messages/shared.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Success",
+        "id": "toastr.title.success"
+      },
+      {
+        "defaultMessage": "Car created",
+        "id": "toastr.message.car-created"
+      },
+      {
+        "defaultMessage": "Car deleted",
+        "id": "toastr.message.car-deleted"
+      },
+      {
+        "defaultMessage": "Password changed",
+        "id": "toastr.message.password-changed"
+      }
+    ],
+    "path": "src/i18n/messages/toastrMessages.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Full name is required",
+        "id": "validation.fields.fullName.required"
+      },
+      {
+        "defaultMessage": "First name is required",
+        "id": "validation.fields.firstName.required"
+      },
+      {
+        "defaultMessage": "Last name is required",
+        "id": "validation.fields.lastName.required"
+      },
+      {
+        "defaultMessage": "Phone number is required",
+        "id": "validation.fields.phoneNumber.required"
+      },
+      {
+        "defaultMessage": "Invalid email",
+        "id": "validation.fields.email.email"
+      },
+      {
+        "defaultMessage": "Email is required",
+        "id": "validation.fields.email.required"
+      },
+      {
+        "defaultMessage": "Password is too short!",
+        "id": "validation.fields.password.min"
+      },
+      {
+        "defaultMessage": "Password is too long!",
+        "id": "validation.fields.password.max"
+      },
+      {
+        "defaultMessage": "Password is required",
+        "id": "validation.fields.password.required"
+      },
+      {
+        "defaultMessage": "Address is required",
+        "id": "validation.fields.address.required"
+      },
+      {
+        "defaultMessage": "Description can't be blank",
+        "id": "validation.review.description.required"
+      },
+      {
+        "defaultMessage": "Mark can't be blank",
+        "id": "validation.review.mark.required"
+      },
+      {
+        "defaultMessage": "Company name is required",
+        "id": "validation.dealer-profile.name.required"
+      },
+      {
+        "defaultMessage": "Format is invalid",
+        "id": "validation.dealer-profile.time.validateDate"
+      },
+      {
+        "defaultMessage": "1 rule is required",
+        "id": "validation.dealer-profile.rules.required"
+      },
+      {
+        "defaultMessage": "Brnad is required",
+        "id": "validation.create-car.brand.required"
+      },
+      {
+        "defaultMessage": "Model is required",
+        "id": "validation.create-car.model.required"
+      },
+      {
+        "defaultMessage": "Generation is required",
+        "id": "validation.create-car.generation.required"
+      },
+      {
+        "defaultMessage": "Engine is required",
+        "id": "validation.create-car.engine.required"
+      },
+      {
+        "defaultMessage": "Power is required",
+        "id": "validation.create-car.power.required"
+      },
+      {
+        "defaultMessage": "Fuel type is required",
+        "id": "validation.create-car.fueltype.required"
+      },
+      {
+        "defaultMessage": "limited {qty} digits",
+        "id": "validation.create-car.color.max"
+      },
+      {
+        "defaultMessage": "Color type is required",
+        "id": "validation.create-car.color.required"
+      },
+      {
+        "defaultMessage": "limited {qty} digits",
+        "id": "validation.create-car.transmission.max"
+      },
+      {
+        "defaultMessage": "Transmission type is required",
+        "id": "validation.create-car.transmission.required"
+      },
+      {
+        "defaultMessage": "Test drive price is required",
+        "id": "validation.create-car.test_price.required"
+      },
+      {
+        "defaultMessage": "Car price limited {qty} digits",
+        "id": "validation.create-car.test_price.max"
+      },
+      {
+        "defaultMessage": "Car price is required",
+        "id": "validation.create-car.car_price.required"
+      },
+      {
+        "defaultMessage": "Car price limited {qty} digits",
+        "id": "validation.create-car.car_price.max"
+      },
+      {
+        "defaultMessage": "Further features is required",
+        "id": "validation.create-car.equipment.required"
+      },
+      {
+        "defaultMessage": "Special equipment is required",
+        "id": "validation.create-car.special_equipment.required"
+      },
+      {
+        "defaultMessage": "Photos is required",
+        "id": "validation.create-car.photos.required"
+      },
+      {
+        "defaultMessage": "Photos must have less than or equal to {qty} items",
+        "id": "validation.create-car.photos.max"
+      },
+      {
+        "defaultMessage": "Photos must have at least {qty} items",
+        "id": "validation.create-car.photos.min"
+      },
+      {
+        "defaultMessage": "Passwords are not the same!",
+        "id": "validation.password.confirmation.passwordConfirmation"
+      },
+      {
+        "defaultMessage": "Password confirmation is required!",
+        "id": "validation.password.confirmation.required"
+      },
+      {
+        "defaultMessage": "Date from is required",
+        "id": "validation.dealer.date.from"
+      },
+      {
+        "defaultMessage": "Date to is required",
+        "id": "validation.dealer.date.to"
+      },
+      {
+        "defaultMessage": "Time from is required",
+        "id": "validation.dealer.time.from"
+      },
+      {
+        "defaultMessage": "Time to is required",
+        "id": "validation.dealer.time.to"
+      },
+      {
+        "defaultMessage": "Format is invalid",
+        "id": "validation.dealer.time.validateDate"
+      },
+      {
+        "defaultMessage": "Phone number is invalid",
+        "id": "validation.methods.phoneNumberRequired"
+      },
+      {
+        "defaultMessage": "Date is invalid",
+        "id": "validation.methods.validateDate"
+      }
+    ],
+    "path": "src/i18n/messages/validation.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Sorry, page not found",
+        "id": "pages.404.title"
+      },
+      {
+        "defaultMessage": "We couldn’t find the page you are looking for",
+        "id": "pages.404.subtitile"
+      }
+    ],
+    "path": "src/pages/404-page/404.messages.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Home page",
+        "id": "pages.aboutUs.homepage"
+      },
+      {
+        "defaultMessage": "About Us",
+        "id": "pages.aboutUs.title"
+      },
+      {
+        "defaultMessage": "Company background",
+        "id": "pages.aboutUs.companyBg"
+      },
+      {
+        "defaultMessage": "aboutCars",
+        "id": "pages.aboutUs.aboutCars"
+      },
+      {
+        "defaultMessage": "About Us",
+        "id": "pages.aboutUs.aboutUs"
+      },
+      {
+        "defaultMessage": "Take a look around",
+        "id": "pages.aboutUs.takeLook"
+      },
+      {
+        "defaultMessage": "TestMee – Everything about cars",
+        "id": "pages.aboutUs.testMe"
+      },
+      {
+        "defaultMessage": "See more photos on Instagram",
+        "id": "pages.aboutUs.instagramBtn"
+      }
+    ],
+    "path": "src/pages/about-us/aboutUs.messages.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Cars",
+        "id": "pages.allCars.totalCars"
+      },
+      {
+        "defaultMessage": "Car",
+        "id": "pages.allCars.totalCar"
+      }
+    ],
+    "path": "src/pages/all-cars/AllCars.messages.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Location",
+        "id": "pages.allCars.search.location"
+      },
+      {
+        "defaultMessage": "Brand",
+        "id": "pages.allCars.search.brand"
+      },
+      {
+        "defaultMessage": "Model",
+        "id": "pages.allCars.search.model"
+      },
+      {
+        "defaultMessage": "Fuel type",
+        "id": "pages.allCars.search.fuelType"
+      },
+      {
+        "defaultMessage": "Dealer",
+        "id": "pages.allCars.search.dealer"
+      },
+      {
+        "defaultMessage": "Location / zip-code",
+        "id": "pages.allCars.search.locationPlaceholder"
+      },
+      {
+        "defaultMessage": "Any",
+        "id": "pages.allCars.search.any"
+      },
+      {
+        "defaultMessage": "First select the brand",
+        "id": "pages.allCars.search.no-options.brand"
+      },
+      {
+        "defaultMessage": "First select the model",
+        "id": "pages.allCars.search.no-options.model"
+      },
+      {
+        "defaultMessage": "No options",
+        "id": "pages.allCars.search.no-options"
+      }
+    ],
+    "path": "src/pages/all-cars/CarSearch/CarSearch.messages.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Clear all filters",
+        "id": "pages.allCars.filter.clearAllFilters"
+      },
+      {
+        "defaultMessage": "Price ascending",
+        "id": "pages.allCars.filter.priceAscending"
+      },
+      {
+        "defaultMessage": "Price descending",
+        "id": "pages.allCars.filter.priceDescending"
+      },
+      {
+        "defaultMessage": "Newest",
+        "id": "pages.allCars.filter.newest"
+      },
+      {
+        "defaultMessage": "Oldest",
+        "id": "pages.allCars.filter.oldest"
+      },
+      {
+        "defaultMessage": "Sort by",
+        "id": "pages.allCars.filter.sortBy"
+      },
+      {
+        "defaultMessage": "Filters",
+        "id": "pages.allCars.filter.filters"
+      },
+      {
+        "defaultMessage": "Clear all",
+        "id": "pages.allCars.filter.clearAll"
+      }
+    ],
+    "path": "src/pages/all-cars/CarsFilter/CarsFilter.messages.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Congratulations! Test drive has been bought",
+        "id": "pages.congratulations.title"
+      },
+      {
+        "defaultMessage": "After checking by the dealer, your test drive will appear on  your profile page within 24 hour",
+        "id": "pages.congratulations.subtitile"
+      }
+    ],
+    "path": "src/pages/congratulation-page/Congratulation.messages.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Home page",
+        "id": "pages.contact-info.homepage"
+      },
+      {
+        "defaultMessage": "Contact Info",
+        "id": "pages.contact-info.title"
+      },
+      {
+        "defaultMessage": "Company background",
+        "id": "pages.contact-info.companyBg"
+      },
+      {
+        "defaultMessage": "aboutCars",
+        "id": "pages.contact-info.aboutCars"
+      },
+      {
+        "defaultMessage": "Contact Info",
+        "id": "pages.contact-info.contactInfo"
+      },
+      {
+        "defaultMessage": "Take a look around",
+        "id": "pages.contact-info.takeLook"
+      },
+      {
+        "defaultMessage": "TestMee – Everything about cars",
+        "id": "pages.contact-info.testMe"
+      },
+      {
+        "defaultMessage": "See more photos on Instagram",
+        "id": "pages.contact-info.instagramBtn"
+      }
+    ],
+    "path": "src/pages/contact-info/contactInfo.messages.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Listing",
+        "id": "pages.dashboard.tabs.listing"
+      },
+      {
+        "defaultMessage": "Test drives",
+        "id": "pages.dashboard.tabs.test-drives"
+      },
+      {
+        "defaultMessage": "Add a car",
+        "id": "pages.dashboard.tabs.new-car"
+      },
+      {
+        "defaultMessage": "Profile",
+        "id": "pages.dashboard.tabs.profile"
+      },
+      {
+        "defaultMessage": "Dashboard",
+        "id": "pages.dashboard.title"
+      },
+      {
+        "defaultMessage": "When the test drive has been passed please press confirm button",
+        "id": "pages.dashboard.tabs.passedCar"
+      }
+    ],
+    "path": "src/pages/dashboard/dashboard.messages.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Success",
+        "id": "pages.dashboard.create-car.toastr.title"
+      },
+      {
+        "defaultMessage": "Сar was created",
+        "id": "pages.dashboard.create-car.toastr.message"
+      }
+    ],
+    "path": "src/pages/dashboard/DashboardCreateCar/DashboardCreateCar.component.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Success",
+        "id": "pages.dashboard.edit-car.toastr.title"
+      },
+      {
+        "defaultMessage": "Сar was updated",
+        "id": "pages.dashboard.edit-car.toastr.message"
+      }
+    ],
+    "path": "src/pages/dashboard/DashboardEditCar/DashboardEditCar.component.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "My cars",
+        "id": "pages.dashboard.listing.title"
+      },
+      {
+        "defaultMessage": "Sort by:",
+        "id": "pages.dashboard.listing.sort-by"
+      },
+      {
+        "defaultMessage": "Add a car",
+        "id": "pages.dashboard.listing.addCar"
+      }
+    ],
+    "path": "src/pages/dashboard/DashboardListing/DashboardListing.component.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Main details",
+        "id": "pages.dashboard.profile.title.main-details"
+      },
+      {
+        "defaultMessage": "Changed password ",
+        "id": "pages.dashboard.profile.secure.changedPassword"
+      },
+      {
+        "defaultMessage": "Delete your account ",
+        "id": "pages.dashboard.profile.secure.deleteYourAccount"
+      },
+      {
+        "defaultMessage": "Rules of test drive",
+        "id": "pages.dashboard.profile.title.rules"
+      },
+      {
+        "defaultMessage": "Allowed",
+        "id": "pages.dashboard.profile.label.allowed"
+      },
+      {
+        "defaultMessage": "Not allowed",
+        "id": "pages.dashboard.profile.label.not-allowed"
+      },
+      {
+        "defaultMessage": "Write the date you are open: Monday-Friday",
+        "id": "pages.dashboard.profile.hint.date"
+      },
+      {
+        "defaultMessage": "Write the time you are open: 10:00-18:00",
+        "id": "pages.dashboard.profile.label.time"
+      },
+      {
+        "defaultMessage": "Save",
+        "id": "pages.dashboard.profile.button.submit"
+      },
+      {
+        "defaultMessage": "Success",
+        "id": "pages.dashboard.profile.toastr.title"
+      },
+      {
+        "defaultMessage": "Updated!",
+        "id": "pages.dashboard.profile.toastr.message"
+      }
+    ],
+    "path": "src/pages/dashboard/DashboardProfile/DashboardProfile.messages.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "+ Add next rule",
+        "id": "pages.dashboard.DashboardProfile.rules"
+      }
+    ],
+    "path": "src/pages/dashboard/DashboardProfile/DashboardProfile.rules.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Dealer information",
+        "id": "pages.dealer.dealerInfo"
+      },
+      {
+        "defaultMessage": "Contact",
+        "id": "pages.dealer.contact"
+      },
+      {
+        "defaultMessage": "Phone",
+        "id": "pages.dealer.phone"
+      },
+      {
+        "defaultMessage": "Email",
+        "id": "pages.dealer.email"
+      },
+      {
+        "defaultMessage": "Opening hours",
+        "id": "pages.dealer.openingHours"
+      },
+      {
+        "defaultMessage": "Location",
+        "id": "pages.dealer.location"
+      },
+      {
+        "defaultMessage": "Dealer's rating",
+        "id": "pages.dealer.dealerRating"
+      },
+      {
+        "defaultMessage": "review",
+        "id": "pages.dealer.ratingReview"
+      },
+      {
+        "defaultMessage": "reviews",
+        "id": "pages.dealer.ratingReviews"
+      },
+      {
+        "defaultMessage": "Write a review",
+        "id": "pages.dealer.writeReview"
+      },
+      {
+        "defaultMessage": "Rules for test drive",
+        "id": "pages.dealer.testDriveRules"
+      },
+      {
+        "defaultMessage": "Homepage",
+        "id": "pages.dealer.breadcrumbs.homepage"
+      },
+      {
+        "defaultMessage": "Dealer page",
+        "id": "pages.dealer.breadcrumbs.dealer"
+      }
+    ],
+    "path": "src/pages/dealer/dealer.messages.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Last added dealer's cars",
+        "id": "pages.dealer.lastAddedTitle"
+      },
+      {
+        "defaultMessage": "See all",
+        "id": "pages.dealer.seeAll"
+      }
+    ],
+    "path": "src/pages/dealer/LastAddedCars/LastAddedCars.messages.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Reviews",
+        "id": "pages.dealer.review.reviewTitle"
+      },
+      {
+        "defaultMessage": "stars",
+        "id": "pages.dealer.review.stars"
+      },
+      {
+        "defaultMessage": "star",
+        "id": "pages.dealer.review.star"
+      },
+      {
+        "defaultMessage": "See all",
+        "id": "pages.dealer.review.seeAll"
+      },
+      {
+        "defaultMessage": "Show Less",
+        "id": "pages.dealer.review.showLess"
+      },
+      {
+        "defaultMessage": "Write a review",
+        "id": "pages.dealer.review.writeReview"
+      }
+    ],
+    "path": "src/pages/dealer/Reviews/Reviews.messages.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Home page",
+        "id": "pages.faq.homepage"
+      },
+      {
+        "defaultMessage": "FAQ",
+        "id": "pages.faq.title"
+      },
+      {
+        "defaultMessage": "Company background",
+        "id": "pages.faq.companyBg"
+      },
+      {
+        "defaultMessage": "aboutCars",
+        "id": "pages.faq.aboutCars"
+      },
+      {
+        "defaultMessage": "FAQ",
+        "id": "pages.faq.faq"
+      },
+      {
+        "defaultMessage": "Take a look around",
+        "id": "pages.faq.takeLook"
+      },
+      {
+        "defaultMessage": "TestMee – Everything about cars",
+        "id": "pages.faq.testMe"
+      },
+      {
+        "defaultMessage": "See more photos on Instagram",
+        "id": "pages.faq.instagramBtn"
+      }
+    ],
+    "path": "src/pages/faq/faq.messages.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Forgot password?",
+        "id": "pages.forgot-password.title"
+      },
+      {
+        "defaultMessage": "Enter your email and we will send you the reset password link",
+        "id": "pages.forgot-password.subtitle"
+      },
+      {
+        "defaultMessage": "Email",
+        "id": "pages.forgot-password.label.email"
+      },
+      {
+        "defaultMessage": "Send the reset password link",
+        "id": "pages.forgot-password.button.send"
+      }
+    ],
+    "path": "src/pages/forgot-password/forgot-password.component.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Marketplace <span>for booking of test</span> and demonstration cars",
+        "id": "pages.home.banner.title"
+      }
+    ],
+    "path": "src/pages/home/home.component.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Recently added cars",
+        "id": "pages.home.recentlyAdded"
+      },
+      {
+        "defaultMessage": "Promoted cars",
+        "id": "pages.home.promotedCars"
+      },
+      {
+        "defaultMessage": "View all cars",
+        "id": "pages.home.viewAllcars"
+      },
+      {
+        "defaultMessage": "Body type",
+        "id": "pages.home.bodyType.bodyTypeTitle"
+      },
+      {
+        "defaultMessage": "Sedan",
+        "id": "pages.home.bodyType.sedan"
+      },
+      {
+        "defaultMessage": "Hatchback",
+        "id": "pages.home.bodyType.hatchback"
+      },
+      {
+        "defaultMessage": " 4 Wheel Drives & SUV",
+        "id": "pages.home.bodyType.allWheelDrive"
+      },
+      {
+        "defaultMessage": "Station Wagon",
+        "id": "pages.home.bodyType.stationWagon"
+      },
+      {
+        "defaultMessage": "Buses & Vans",
+        "id": "pages.home.bodyType.busesVans"
+      },
+      {
+        "defaultMessage": "Electric car",
+        "id": "pages.home.bodyType.electicCar"
+      },
+      {
+        "defaultMessage": "Marketplace for booking of test and demonstration cars",
+        "id": "pages.home.hero.title"
+      }
+    ],
+    "path": "src/pages/home/home.messages.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Brand",
+        "id": "pages.home.search.brand"
+      },
+      {
+        "defaultMessage": "Model",
+        "id": "pages.home.search.model"
+      },
+      {
+        "defaultMessage": "Location",
+        "id": "pages.home.search.location"
+      },
+      {
+        "defaultMessage": "Location / zip-code",
+        "id": "pages.home.search.locationPlaceholder"
+      },
+      {
+        "defaultMessage": "Search",
+        "id": "pages.home.search.search"
+      },
+      {
+        "defaultMessage": "Any",
+        "id": "pages.home.search.any"
+      }
+    ],
+    "path": "src/pages/home/SearchCar/SearchCar.messages.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Home page",
+        "id": "pages.imprint.homepage"
+      },
+      {
+        "defaultMessage": "Imprint",
+        "id": "pages.imprint.title"
+      },
+      {
+        "defaultMessage": "Company background",
+        "id": "pages.imprint.companyBg"
+      },
+      {
+        "defaultMessage": "aboutCars",
+        "id": "pages.imprint.aboutCars"
+      },
+      {
+        "defaultMessage": "Imprint",
+        "id": "pages.imprint.imprint"
+      },
+      {
+        "defaultMessage": "Take a look around",
+        "id": "pages.imprint.takeLook"
+      },
+      {
+        "defaultMessage": "TestMee – Everything about cars",
+        "id": "pages.imprint.testMe"
+      },
+      {
+        "defaultMessage": "See more photos on Instagram",
+        "id": "pages.imprint.instagramBtn"
+      }
+    ],
+    "path": "src/pages/imprint/imprint.messages.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Technical specifications",
+        "id": "pages.offer.techSpecifications"
+      },
+      {
+        "defaultMessage": "Transmission",
+        "id": "pages.offer.transmission"
+      },
+      {
+        "defaultMessage": "Engine",
+        "id": "pages.offer.engine"
+      },
+      {
+        "defaultMessage": "Price",
+        "id": "pages.offer.price"
+      },
+      {
+        "defaultMessage": "Color",
+        "id": "pages.offer.color"
+      },
+      {
+        "defaultMessage": "CRW",
+        "id": "pages.offer.crw"
+      },
+      {
+        "defaultMessage": "Fuel",
+        "id": "pages.offer.fuel"
+      },
+      {
+        "defaultMessage": "Seats",
+        "id": "pages.offer.seats"
+      },
+      {
+        "defaultMessage": "Emission class",
+        "id": "pages.offer.emissionCl"
+      },
+      {
+        "defaultMessage": "refNum",
+        "id": "pages.offer.refNum"
+      },
+      {
+        "defaultMessage": "Location",
+        "id": "pages.offer.location"
+      },
+      {
+        "defaultMessage": "See All",
+        "id": "pages.offer.seeAll"
+      },
+      {
+        "defaultMessage": "Vehicle description",
+        "id": "pages.offer.vehicleDescription"
+      },
+      {
+        "defaultMessage": "Visit a dealer's page",
+        "id": "pages.offer.btnDealerPage"
+      },
+      {
+        "defaultMessage": "Contacts",
+        "id": "pages.offer.contacts"
+      },
+      {
+        "defaultMessage": "Phone",
+        "id": "pages.offer.phone"
+      },
+      {
+        "defaultMessage": "Email",
+        "id": "pages.offer.email"
+      },
+      {
+        "defaultMessage": "Opening hours",
+        "id": "pages.offer.openingHours"
+      },
+      {
+        "defaultMessage": "Dealer's rating",
+        "id": "pages.offer.dealerRating"
+      },
+      {
+        "defaultMessage": "reviews",
+        "id": "pages.offer.ratingReviews"
+      },
+      {
+        "defaultMessage": "Visit a dealer's page",
+        "id": "pages.offer.visitDealer"
+      },
+      {
+        "defaultMessage": "Rules for test drive",
+        "id": "pages.offer.testDriveRules"
+      },
+      {
+        "defaultMessage": "Dealer information",
+        "id": "pages.offer.reviewTitle"
+      },
+      {
+        "defaultMessage": "star",
+        "id": "pages.offer.starsEmpty"
+      },
+      {
+        "defaultMessage": "Review",
+        "id": "pages.offer.allReviewsEmpty"
+      },
+      {
+        "defaultMessage": "stars",
+        "id": "pages.offer.stars"
+      },
+      {
+        "defaultMessage": "Reviews",
+        "id": "pages.offer.allReviews"
+      },
+      {
+        "defaultMessage": "Brand",
+        "id": "pages.offer.brand"
+      },
+      {
+        "defaultMessage": "Model",
+        "id": "pages.offer.model"
+      },
+      {
+        "defaultMessage": "Generation",
+        "id": "pages.offer.generation"
+      },
+      {
+        "defaultMessage": "Power",
+        "id": "pages.offer.power"
+      }
+    ],
+    "path": "src/pages/offer/offer.measeges.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Special equipment",
+        "id": "pages.offer.OfferDescription.specialEquipment"
+      },
+      {
+        "defaultMessage": "Further features",
+        "id": "pages.offer.OfferDescription.furtherFeatures"
+      }
+    ],
+    "path": "src/pages/offer/OfferDescription/OfferDescription.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Payment",
+        "id": "pages.dashboard.tabs.title"
+      },
+      {
+        "defaultMessage": "The \"€ 0\" price means that \"€ 0.01\" is debit from your account to confirm the booking",
+        "id": "pages.dashboard.tabs.titleTooltip"
+      },
+      {
+        "defaultMessage": "Booking summary of test drive",
+        "id": "pages.dashboard.title.orderSummary"
+      },
+      {
+        "defaultMessage": "Date",
+        "id": "pages.dashboard.item.date"
+      },
+      {
+        "defaultMessage": "Car",
+        "id": "pages.dashboard.item.car"
+      },
+      {
+        "defaultMessage": "Price",
+        "id": "pages.dashboard.item.price"
+      },
+      {
+        "defaultMessage": "Dealer",
+        "id": "pages.dashboard.item.dealer"
+      },
+      {
+        "defaultMessage": "(incl. VAT)",
+        "id": "pages.dashboard.vat"
+      },
+      {
+        "defaultMessage": "Back",
+        "id": "pages.dashboard.back"
+      }
+    ],
+    "path": "src/pages/payment-page/Payment.messages.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Home page",
+        "id": "pages.privacy-policy.homepage"
+      },
+      {
+        "defaultMessage": "Privacy policy",
+        "id": "pages.privacy-policy.title"
+      },
+      {
+        "defaultMessage": "Company background",
+        "id": "pages.privacy-policy.companyBg"
+      },
+      {
+        "defaultMessage": "aboutCars",
+        "id": "pages.privacy-policy.aboutCars"
+      },
+      {
+        "defaultMessage": "Privacy policy",
+        "id": "pages.privacy-policy.aboutUs"
+      },
+      {
+        "defaultMessage": "Take a look around",
+        "id": "pages.privacy-policy.takeLook"
+      },
+      {
+        "defaultMessage": "TestMee – Everything about cars",
+        "id": "pages.privacy-policy.testMe"
+      },
+      {
+        "defaultMessage": "See more photos on Instagram",
+        "id": "pages.privacy-policy.instagramBtn"
+      }
+    ],
+    "path": "src/pages/privacy-policy/privacyPolicy.messages.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "My profile",
+        "id": "pages.profile.title.myProfile"
+      },
+      {
+        "defaultMessage": "Test drive date",
+        "id": "pages.profile.card.testDriveData"
+      },
+      {
+        "defaultMessage": "Price",
+        "id": "pages.profile.card.price"
+      },
+      {
+        "defaultMessage": "Car",
+        "id": "pages.profile.card.car"
+      },
+      {
+        "defaultMessage": "Dealer",
+        "id": "pages.profile.card.dealer"
+      },
+      {
+        "defaultMessage": "Cancel",
+        "id": "pages.profile.card.cancel"
+      },
+      {
+        "defaultMessage": "Get a coupon",
+        "id": "pages.profile.getACoupon"
+      },
+      {
+        "defaultMessage": "Upcoming",
+        "id": "pages.profile.card.upcoming"
+      },
+      {
+        "defaultMessage": "Passed",
+        "id": "pages.profile.card.passed"
+      },
+      {
+        "defaultMessage": "Cancelled",
+        "id": "pages.profile.card.cancelled"
+      },
+      {
+        "defaultMessage": "My account details",
+        "id": "pages.profile.accountDetails"
+      },
+      {
+        "defaultMessage": "Change password",
+        "id": "pages.profile.changePassword"
+      },
+      {
+        "defaultMessage": "Test Drives",
+        "id": "pages.profile.testDrives"
+      },
+      {
+        "defaultMessage": "Delete your account",
+        "id": "pages.profile.deleteYourAccount"
+      },
+      {
+        "defaultMessage": "When you delete your account, you lose access to TestMee account, and we permanently delete your personal data.",
+        "id": "pages.profile.deleteAccountRules"
+      },
+      {
+        "defaultMessage": "This page is protected by reCAPTCHA and the Google <pp>Privacy Policy</pp> and <tos>Terms of Service</tos> apply.",
+        "id": "pages.profile.deleteAccountRulesProtected"
+      },
+      {
+        "defaultMessage": "Delete my account",
+        "id": "pages.profile.deleteAccButton"
+      }
+    ],
+    "path": "src/pages/profile/profile.messages.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Reset password",
+        "id": "pages.reset-password.title"
+      },
+      {
+        "defaultMessage": "Create new password",
+        "id": "pages.reset-password.subtitle"
+      },
+      {
+        "defaultMessage": "Reset",
+        "id": "pages.reset-password.button.reset"
+      }
+    ],
+    "path": "src/pages/reset-password/reset-password.component.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Welcome to TestMee dealer area",
+        "id": "pages.sign-in.dealer.title"
+      },
+      {
+        "defaultMessage": "Log in and create an advertisement.",
+        "id": "pages.sign-in.dealer.title.description1"
+      },
+      {
+        "defaultMessage": "Let's get you signed back in",
+        "id": "pages.sign-in.dealer.title.description2"
+      },
+      {
+        "defaultMessage": "Don't have an account?",
+        "id": "pages.sign-in.dealer.account.text"
+      },
+      {
+        "defaultMessage": "Sign up",
+        "id": "pages.sign-in.dealer.link.sign-up"
+      }
+    ],
+    "path": "src/pages/sign-in/dealer/sign-in-dealer.messages.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Welcome back",
+        "id": "pages.sign-in.title"
+      },
+      {
+        "defaultMessage": "Hello again, it's good to see you.",
+        "id": "pages.sign-in.title.description1"
+      },
+      {
+        "defaultMessage": "Let's get you signed back in",
+        "id": "pages.sign-in.title.description2"
+      },
+      {
+        "defaultMessage": "Sign in with Google",
+        "id": "pages.sign-in.button.google"
+      },
+      {
+        "defaultMessage": "Don't have an account?",
+        "id": "pages.sign-in.account.text"
+      },
+      {
+        "defaultMessage": "Sign up",
+        "id": "pages.sign-in.link.sign-up"
+      }
+    ],
+    "path": "src/pages/sign-in/sign-in.messages.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Register as car dealer on TestMee!",
+        "id": "pages.sign-up.dealer.title"
+      },
+      {
+        "defaultMessage": "Your account will be activated immediately after verification.",
+        "id": "pages.sign-up.dealer.title.description"
+      },
+      {
+        "defaultMessage": "Continue your registration",
+        "id": "pages.sign-up.dealer.phone.title"
+      },
+      {
+        "defaultMessage": "Please complete your phone verification",
+        "id": "pages.sign-up.dealer.phone.subtitle"
+      },
+      {
+        "defaultMessage": "Already have an account?",
+        "id": "pages.sign-up.dealer.account.text"
+      },
+      {
+        "defaultMessage": "Sign in",
+        "id": "pages.sign-up.dealer.link.sign-in"
+      }
+    ],
+    "path": "src/pages/sign-up/dealer/sign-up-dealer.messages.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Glad to meet you!",
+        "id": "pages.sign-up.title"
+      },
+      {
+        "defaultMessage": "Sing up to Testmee",
+        "id": "pages.sign-up.title.description"
+      },
+      {
+        "defaultMessage": "Sign up with Google",
+        "id": "pages.sign-up.button.google"
+      },
+      {
+        "defaultMessage": "Continue your registration",
+        "id": "pages.sign-up.phone.title"
+      },
+      {
+        "defaultMessage": "Please complete your phone verification",
+        "id": "pages.sign-up.phone.subtitle"
+      },
+      {
+        "defaultMessage": "Already have an account?",
+        "id": "pages.sign-up.account.text"
+      },
+      {
+        "defaultMessage": "Sign in",
+        "id": "pages.sign-up.link.sign-in"
+      }
+    ],
+    "path": "src/pages/sign-up/sign-up.messages.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Home page",
+        "id": "pages.termOfService.homepage"
+      },
+      {
+        "defaultMessage": "Terms Of Service",
+        "id": "pages.termOfService.title"
+      },
+      {
+        "defaultMessage": "Company background",
+        "id": "pages.termOfService.companyBg"
+      },
+      {
+        "defaultMessage": "aboutCars",
+        "id": "pages.termOfService.aboutCars"
+      },
+      {
+        "defaultMessage": "Terms Of Service",
+        "id": "pages.termOfService.termOfService"
+      },
+      {
+        "defaultMessage": "Take a look around",
+        "id": "pages.termOfService.takeLook"
+      },
+      {
+        "defaultMessage": "TestMee – Everything about cars",
+        "id": "pages.termOfService.testMe"
+      },
+      {
+        "defaultMessage": "See more photos on Instagram",
+        "id": "pages.termOfService.instagramBtn"
+      }
+    ],
+    "path": "src/pages/terms-of-service/termsOfService.messages.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Verify",
+        "id": "pages.verify.title"
+      },
+      {
+        "defaultMessage": "We have sent an email to",
+        "id": "pages.verify.subtitle1"
+      },
+      {
+        "defaultMessage": "Have a look for it, click the link and you are off!",
+        "id": "pages.verify.subtitle2"
+      }
+    ],
+    "path": "src/pages/verify/verify.component.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Test drive date",
+        "id": "pages.profile.card.testDriveData"
+      },
+      {
+        "defaultMessage": "Cancel",
+        "id": "pages.profile.card.cancel"
+      },
+      {
+        "defaultMessage": "Upcoming",
+        "id": "pages.profile.card.upcoming"
+      },
+      {
+        "defaultMessage": "Passed",
+        "id": "pages.profile.card.passed"
+      },
+      {
+        "defaultMessage": "Cancelled",
+        "id": "pages.profile.card.cancelled"
+      },
+      {
+        "defaultMessage": "Price",
+        "id": "pages.profile.card.price"
+      },
+      {
+        "defaultMessage": "Car",
+        "id": "pages.profile.card.car"
+      },
+      {
+        "defaultMessage": "Dealer",
+        "id": "pages.profile.card.dealer"
+      }
+    ],
+    "path": "src/pdf/PDFMarkdown.messages.json"
+  }
+]
